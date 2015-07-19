@@ -1,18 +1,18 @@
 Skript, um auf dem LFB epubs zu erzeugen
-----------------------------------------
+=========================================
 
 Zusätzliche Software für den LFB-Server
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 * perl-File-Copy-Recursive
 * perl-Filforeach (@images) 
 * perl-HTML-TokeParser-Simple
 * pandoc
 
-Sollte es allen in den CentOS Paketquellen geben.
+Sollte es alles in den CentOS Paketquellen geben.
 
 Funktionsweise
-~~~~~~~~~~~~~~
+----------------
 
 * Konfiguration am Skriptbeginn
 * Als Option muss das UVV angegeben werden, für welches ein ePub erzeugt werden soll
