@@ -199,10 +199,8 @@ sub clean_html {
         # Medienverzeichnis ermitteln, anlegen und Medien 
         # kopieren
         my $mediadirname = $subindexdir;
-        print "--------------- " . $subindexdir . "------------\n";
         $mediadirname =~ s|(.*)/(.+?)/$|$2|;
         my $singlehtmlname = $mediadirname;
-        print "--------------- " . $singlehtmlname . "------------\n";
         $mediadirname = $BUILDDIR . $mediadirname; 
         logit("... Seitenmedien werden nach $mediadirname übernommen", 3);  
         my($num_of_files_and_dirs,$num_of_dirs,$depth_traversed) = dircopy($subindexdir,$mediadirname);
